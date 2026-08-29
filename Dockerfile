@@ -2,7 +2,7 @@ FROM ubuntu:latest
 RUN apt-get update && apt-get install -y python3
 WORKDIR /app
 # This is pre-configured so you can just copy this Dockerfile to the root folder!
-COPY atomics/T0002/check.sh .
+COPY atomics/T0003/check.sh .
 RUN chmod +x check.sh
 
 # Create a script that runs the check, saves the output, and starts a web server
