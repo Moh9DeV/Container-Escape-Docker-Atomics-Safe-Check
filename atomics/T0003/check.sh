@@ -5,3 +5,4 @@ echo "Container running as root: "
 id
 echo "CAP_SYS_MODULE capability: "
 capsh --print | grep cap_sys_module
+# Cache bust: 1
